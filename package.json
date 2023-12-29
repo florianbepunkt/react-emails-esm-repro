@@ -1,0 +1,22 @@
+{
+  "name": "react-emails-esm-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "emails:dev": "email dev --dir ./src/emails",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "18.2.46",
+    "prettier": "3.1.1",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "@react-email/components": "0.0.12",
+    "react-email": "1.10.0"
+  }
+}
